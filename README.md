@@ -12,8 +12,6 @@ The dataset contains records of employees, including:
 
 - Target Variable: Whether the employee quit (1) or stayed (0)
 
-Filename: Employee_Records.csv
-
 ## Project Workflow
 1. Data Preprocessing & Cleaning
 - Loaded CSV data using pandas
@@ -79,10 +77,3 @@ Filename: Employee_Records.csv
 
 ## Conclusion
 This project provides a full machine learning pipeline for understanding and predicting employee attrition. The use of tree-based models not only delivers strong performance but also maintains interpretability — a key requirement in HR applications.
-
-## Future Improvements
-- Integrate more features like job satisfaction scores, last promotion time, etc.
-
-- Explore ensemble methods beyond Random Forests (e.g., XGBoost)
-
-- Build a dashboard for non-technical HR teams to interact with the model
