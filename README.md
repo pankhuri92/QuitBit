@@ -14,35 +14,35 @@ The dataset contains records of employees, including:
 
 ## Project Workflow
 1. Data Preprocessing & Cleaning
-- Loaded CSV data using pandas
-
-- Converted categorical variables (department, salary) into numeric form using one-hot encoding
-
-- Removed redundant columns post-encoding
+    - Loaded CSV data using pandas
+    
+    - Converted categorical variables (department, salary) into numeric form using one-hot encoding
+    
+    - Removed redundant columns post-encoding
 
 2. Exploratory Data Analysis (EDA)
-- Visualized salary distribution vs. turnover frequency
+    - Visualized salary distribution vs. turnover frequency
 
-- Checked class imbalance using Yellowbrick's ClassBalance visualizer
+    - Checked class imbalance using Yellowbrick's ClassBalance visualizer
 
 3. Train-Test Split
-- Performed an 80/20 split using stratified sampling to preserve target distribution
+    - Performed an 80/20 split using stratified sampling to preserve target distribution
 
 4. Model Building
-- Built an interactive Decision Tree Classifier with tunable hyperparameters using ipywidgets
+    - Built an interactive Decision Tree Classifier with tunable hyperparameters using ipywidgets
 
-- Built an interactive Random Forest Classifier with UI sliders for model customization
+    - Built an interactive Random Forest Classifier with UI sliders for model customization
 
-- Displayed visual tree structure using Graphviz within the notebook
+    - Displayed visual tree structure using Graphviz within the notebook
 
 5. Model Evaluation
-- Computed accuracy on training and testing data
-
-- Used Yellowbrick visualizers for:
-
-    - Feature Importance
-
-    - ROC-AUC Curves
+    - Computed accuracy on training and testing data
+    
+    - Used Yellowbrick visualizers for:
+    
+        - Feature Importance
+    
+        - ROC-AUC Curves
 
 ## Key Features
 - Interactive Tuning: Change model parameters using sliders without modifying code
@@ -77,3 +77,4 @@ The dataset contains records of employees, including:
 
 ## Conclusion
 This project provides a full machine learning pipeline for understanding and predicting employee attrition. The use of tree-based models not only delivers strong performance but also maintains interpretability — a key requirement in HR applications.
+
