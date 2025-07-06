@@ -1,4 +1,4 @@
-# QuitBit
+# QuitBit - Employee Turnover Forecast Model
 
 ## Project Objective
 This project aims to predict employee turnover (i.e., whether an employee will stay or quit) using machine learning algorithms, specifically Decision Trees and Random Forests. The model assists HR departments in identifying employees at risk of attrition based on key behavioral and demographic features.
